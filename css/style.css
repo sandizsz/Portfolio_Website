@@ -56,12 +56,16 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 2em;
+  padding: 1em;
+  font-size: 0.65em;
 }
 
 header .logo {
   color: #00f7ff;
   font-weight: bold;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 header ul {
@@ -72,7 +76,7 @@ header ul {
 
 header ul a {
   display: block;
-  padding: 0 1em;
+  padding: 0 0.6em;
 }
 
 .social-header, .hero-design {
@@ -285,6 +289,16 @@ textarea:hover {
 
 #submit:hover {
   color: #e2dedb;
+}
+
+@media only screen and (min-width: 580px) {
+  header {
+    font-size: 1em;
+    padding: 2em;
+  }
+  header ul a {
+    padding: 0 1em;
+  }
 }
 
 @media only screen and (min-width: 800px) {

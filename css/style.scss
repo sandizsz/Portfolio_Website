@@ -84,7 +84,7 @@ header {
 
             a {
                 display: block;
-                padding: 0 1em;
+                padding: 0 0.6em;
             }
         }
     
@@ -336,6 +336,9 @@ section {
         font-size: 1em;
         padding: 2em;
 
+        ul a {
+            padding: 0 1em;
+        }
     }
 
 }
