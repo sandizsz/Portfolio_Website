@@ -235,9 +235,13 @@ section {
 
     
 
-    .featured-title {
+    .contact-form-title {
         color: #fff;
         font-size: 3em;
+    }
+
+    .contact-form-desc {
+        color: #fff;
     }
 }
 
@@ -248,12 +252,12 @@ section {
 
   
 
-  
-  #form {
-   
-    max-width: 500px;
-    margin: 0 0 0 auto;
-   
+  .form-container {
+    display: grid;
+    place-content: center;
+    margin: 2em;
+    margin: 0 0 0 2em;
+    max-width: 400px;
   }
   
   input {
@@ -275,8 +279,8 @@ section {
   }
   
   input:hover {
-    background: #b3aca7;
-    color: #e2dedb;
+    background-color: rgba(255, 0, 0, 0.3);
+   
   }
   
   textarea {
@@ -376,6 +380,9 @@ section {
         margin-left: 2em;
     }
 
+    .form-container {
+        max-width: 500px;
+    }
     
 }
 
@@ -455,6 +462,8 @@ section {
         float: right;
         max-width: 500px;
     }
+
+   
     
 }
 
