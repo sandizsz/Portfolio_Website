@@ -336,7 +336,10 @@ textarea:hover {
     margin-left: 2em;
   }
   .form-container {
-    max-width: 500px;
+    max-width: 400px;
+    display: -ms-grid;
+    display: grid;
+    place-content: center;
   }
 }
 
@@ -407,6 +410,9 @@ textarea:hover {
   }
   .portfolio img {
     float: right;
+    max-width: 500px;
+  }
+  .form-container {
     max-width: 500px;
   }
 }

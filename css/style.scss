@@ -393,7 +393,9 @@ section {
     }
 
     .form-container {
-        max-width: 500px;
+        max-width: 400px;
+        display: grid;
+        place-content: center;
     }
     
 }
@@ -472,6 +474,10 @@ section {
 
     .portfolio img {
         float: right;
+        max-width: 500px;
+    }
+
+    .form-container {
         max-width: 500px;
     }
 
