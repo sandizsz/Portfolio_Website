@@ -70,11 +70,13 @@ nav a {
 header {
     display: flex;
     justify-content: space-between;
-    padding: 2em;
+    padding: 1em;
+    font-size: 0.65em;
 
     .logo {
         color: $logo-color;
         font-weight: bold;
+        align-self: center;
     }
 
         ul {
@@ -328,6 +330,15 @@ section {
   }
 
 //contact form
+
+@media only screen and (min-width: 580px) { 
+    header {
+        font-size: 1em;
+        padding: 2em;
+
+    }
+
+}
 
 
 @media only screen and (min-width: 800px) {
