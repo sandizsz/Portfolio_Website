@@ -210,30 +210,28 @@ section {
   margin-bottom: 2em;
 }
 
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
 .contact-form {
   background-color: #6E00FF;
-  height: 70vh;
+  height: 75vh;
 }
 
 .contact-form .contact-form-title {
   color: #fff;
-  font-size: 3em;
+  font-size: 1.8em;
 }
 
 .contact-form .contact-form-desc {
   color: #fff;
+  font-size: 0.85em;
+  margin: 1em 0;
 }
 
 /* on hover placeholder */
-.form-container {
-  display: -ms-grid;
-  display: grid;
-  place-content: center;
-  margin: 2em;
-  margin: 0 0 0 2em;
-  max-width: 400px;
-}
-
 input {
   font-family: 'Poppins', sans-serif;
   font-size: 0.875em;
@@ -248,10 +246,6 @@ input {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
-}
-
-input:hover {
-  background-color: rgba(255, 0, 0, 0.3);
 }
 
 textarea {

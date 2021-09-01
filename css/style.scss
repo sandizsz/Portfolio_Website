@@ -231,19 +231,27 @@ section {
 }
 
 
+
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
 .contact-form {
     background-color: $primary-color;
-    height: 70vh;
+    height: 75vh;
 
     
 
     .contact-form-title {
         color: #fff;
-        font-size: 3em;
+        font-size: 1.8em;
     }
 
     .contact-form-desc {
         color: #fff;
+        font-size: 0.85em;
+        margin: 1em 0;
     }
 }
 
@@ -254,13 +262,6 @@ section {
 
   
 
-  .form-container {
-    display: grid;
-    place-content: center;
-    margin: 2em;
-    margin: 0 0 0 2em;
-    max-width: 400px;
-  }
   
   input {
     font-family: 'Poppins', sans-serif;
@@ -280,10 +281,7 @@ section {
     -ms-transition: all 0.3s ease-in-out;
   }
   
-  input:hover {
-    background-color: rgba(255, 0, 0, 0.3);
-   
-  }
+
   
   textarea {
     width: 100%;
