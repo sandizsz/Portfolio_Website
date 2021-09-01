@@ -239,7 +239,7 @@ input {
   height: 50px;
   padding: 0px 15px 0px 15px;
   outline: none;
-  color: #fff;
+  color: black;
   border: solid 1px #b3aca7;
   border-bottom: none;
   transition: all 0.3s ease-in-out;
@@ -254,7 +254,7 @@ textarea {
   max-height: 110px;
   padding: 15px;
   outline: none;
-  color: #fff;
+  color: black;
   font-family: 'Poppins', sans-serif;
   font-size: 0.875em;
   border: solid 1px #b3aca7;
@@ -279,10 +279,6 @@ textarea:hover {
   cursor: pointer;
   border: solid 1px #b3aca7;
   border-top: none;
-}
-
-#submit:hover {
-  color: #e2dedb;
 }
 
 @media only screen and (min-width: 580px) {
@@ -340,6 +336,7 @@ textarea:hover {
     display: -ms-grid;
     display: grid;
     place-content: center;
+    margin: 0 0 0 auto;
   }
 }
 
