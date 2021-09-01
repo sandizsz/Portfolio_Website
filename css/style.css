@@ -422,6 +422,9 @@ textarea {
   .hero .content {
     padding: 6em 8em 6em 10em;
   }
+  .contact-form {
+    padding: 4em 10em 4em 10em;
+  }
 }
 
 @media only screen and (min-width: 1550px) {
